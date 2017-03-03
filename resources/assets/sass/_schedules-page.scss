@@ -1,0 +1,31 @@
+.btn-upload-wrapper input[type=file]{
+  display: none;
+}
+
+#image_preview{
+  display: none;
+  width: 100%;
+}
+#image_preview_edit{
+  width: 100%;
+}
+.page-loader{
+  background-image: url(/images/page-loader.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 99999999;
+  margin: auto auto;
+}
+.ui-autocomplete {
+  max-height: 200px;
+  overflow-y: auto;   /* prevent horizontal scrollbar */
+  overflow-x: hidden; /* add padding to account for vertical scrollbar */
+  z-index:1000 !important;
+}
+.top-posts{
+  color: #0000ff;
+  margin-top: 150px;
+}
